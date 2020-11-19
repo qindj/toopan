@@ -24,12 +24,24 @@ if($mod=='site'){
 	  <div class="col-sm-10"><input type="text" name="title" value="<?php echo $conf['title']; ?>" class="form-control" required/></div>
 	</div><br/>
 	<div class="form-group">
+	  <label class="col-sm-2 control-label">英文网站标题</label>
+	  <div class="col-sm-10"><input type="text" name="en_title" value="<?php echo $conf['en_title']; ?>" class="form-control" required/></div>
+	</div><br/>
+	<div class="form-group">
 	  <label class="col-sm-2 control-label">关键字</label>
 	  <div class="col-sm-10"><input type="text" name="keywords" value="<?php echo $conf['keywords']; ?>" class="form-control"/></div>
 	</div><br/>
 	<div class="form-group">
+	  <label class="col-sm-2 control-label">英文网站关键字</label>
+	  <div class="col-sm-10"><input type="text" name="en_keywords" value="<?php echo $conf['en_keywords']; ?>" class="form-control"/></div>
+	</div><br/>
+	<div class="form-group">
 	  <label class="col-sm-2 control-label">网站描述</label>
 	  <div class="col-sm-10"><input type="text" name="description" value="<?php echo $conf['description']; ?>" class="form-control"/></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">英文网站描述</label>
+	  <div class="col-sm-10"><input type="text" name="en_description" value="<?php echo $conf['en_description']; ?>" class="form-control"/></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">禁止访问IP</label>
@@ -40,12 +52,24 @@ if($mod=='site'){
 	  <div class="col-sm-10"><textarea class="form-control" name="gonggao" rows="3" placeholder="不填写则不显示首页公告"><?php echo htmlspecialchars($conf['gonggao'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">
+	  <label class="col-sm-2 control-label">英文首页公告</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_gonggao" rows="3" placeholder="不填写则不显示首页公告"><?php echo htmlspecialchars($conf['en_gonggao'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
 	  <label class="col-sm-2 control-label">文件查看页公告</label>
 	  <div class="col-sm-10"><textarea class="form-control" name="gg_file" rows="3" placeholder="不填写则不显示"><?php echo htmlspecialchars($conf['gg_file'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">
-	  <label class="col-sm-2 control-label">统计代码</label>
+	  <label class="col-sm-2 control-label">英文文件查看页公告</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_gg_file" rows="3" placeholder="不填写则不显示"><?php echo htmlspecialchars($conf['en_gg_file'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">页脚代码</label>
 	  <div class="col-sm-10"><textarea class="form-control" name="tongji" rows="3" placeholder="不填写则不显示统计代码"><?php echo htmlspecialchars($conf['tongji'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">英文页脚代码</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_tongji" rows="3" placeholder="不填写则不显示统计代码"><?php echo htmlspecialchars($conf['en_tongji'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">
 	  <div class="col-sm-offset-2 col-sm-10"><input type="submit" name="submit" value="修改" class="btn btn-primary form-control"/><br/>

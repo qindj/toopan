@@ -50,7 +50,7 @@ include './head.php';
         <a class="navbar-brand" href="./">云端托盘管理中心</a>
                   <ul class="nav navbar-nav">
           <li class="<?php echo checkIfActive('https://www.toopan.cn/')?>">
-            <a href="https://www.toopan.cn/"><i class="fa fa-bookmark" aria-hidden="true"></i> 返回前台</a>
+            <a href="../"><i class="fa fa-bookmark" aria-hidden="true"></i> 返回前台</a>
           </li>
       </div><!-- /.navbar-header -->
       <div id="navbar" class="collapse navbar-collapse">

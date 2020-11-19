@@ -30,9 +30,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./en-index.php">Management center</a>
-          <ul class="nav navbar-nav">
-          <li class="<?php echo checkIfActive('../')?>">
-            <a href="../en-US.php"><i class="fa fa-bookmark" aria-hidden="true"></i> Return to the home page</a>
+          <ul class="navbar-brand" style="font:14px Microsoft YaHei; margin:0px auto; text-align:center;">
+            <a href="../en-US.php"><i class="fa fa-bookmark" aria-hidden="true"></i> Return</a>
           </li>
       </div><!-- /.navbar-header -->
       <div id="navbar" class="collapse navbar-collapse">
@@ -56,6 +55,14 @@
             </ul>
           </li>
           <li><a href="./en-login.php?logout"><i class="fa fa-power-off"></i> Log out</a></li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-globe" class="navbar-right" aria-hidden="true"></i> Language
+        </a>
+        <div style="text-align:center;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./"><i class="fa fa-language" aria-hidden="true"></i> Simplified Chinese</a>
+        </div>
+      </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->

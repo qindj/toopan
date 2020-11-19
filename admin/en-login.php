@@ -50,7 +50,7 @@ include './en-head.php';
         <a class="navbar-brand" href="./en-index.php">Management center</a>
                   <ul class="nav navbar-nav">
           <li class="<?php echo checkIfActive('https://www.toopan.cn/')?>">
-            <a href="/en-US.php"><i class="fa fa-bookmark" aria-hidden="true"></i> to the home page</a>
+            <a href="../en-US.php"><i class="fa fa-bookmark" aria-hidden="true"></i> to the home page</a>
           </li>        
       </div><!-- /.navbar-header -->
       <div id="navbar" class="collapse navbar-collapse">

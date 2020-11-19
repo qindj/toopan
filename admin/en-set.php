@@ -21,30 +21,54 @@ if($mod=='site'){
   <form onsubmit="return saveSetting(this)" method="post" class="form-horizontal" role="form">
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">Site title</label>
+	  <div class="col-sm-10"><input type="text" name="en_title" value="<?php echo $conf['en_title']; ?>" class="form-control" required/></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Title of Chinese website</label>
 	  <div class="col-sm-10"><input type="text" name="title" value="<?php echo $conf['title']; ?>" class="form-control" required/></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">The keyword</label>
+	  <div class="col-sm-10"><input type="text" name="en_keywords" value="<?php echo $conf['en_keywords']; ?>" class="form-control"/></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Chinese website keywords</label>
 	  <div class="col-sm-10"><input type="text" name="keywords" value="<?php echo $conf['keywords']; ?>" class="form-control"/></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">Website description</label>
+	  <div class="col-sm-10"><input type="text" name="en_description" value="<?php echo $conf['en_description']; ?>" class="form-control"/></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Chinese website description</label>
 	  <div class="col-sm-10"><input type="text" name="description" value="<?php echo $conf['description']; ?>" class="form-control"/></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">No access to IP</label>
-	  <div class="col-sm-10"><textarea class="form-control" name="blackip" rows="2" placeholder="Multiple IP with|separated"><?php echo $conf['blackip']?></textarea></div>
+	  <div class="col-sm-10"><textarea class="form-control" name="blackip" rows="2" placeholder="Multiple IP with|separated"><?php echo $conf['en_blackip']?></textarea></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">Home page announcement</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_gonggao" rows="3" placeholder="Do not fill in does not show the homepage announcement"><?php echo htmlspecialchars($conf['en_gonggao'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Notice on Chinese website</label>
 	  <div class="col-sm-10"><textarea class="form-control" name="gonggao" rows="3" placeholder="Do not fill in does not show the homepage announcement"><?php echo htmlspecialchars($conf['gonggao'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">
 	  <label class="col-sm-2 control-label">File view page announcement</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_gg_file" rows="3" placeholder="Do not fill in will not show"><?php echo htmlspecialchars($conf['en_gg_file'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Chinese website file view announcement</label>
 	  <div class="col-sm-10"><textarea class="form-control" name="gg_file" rows="3" placeholder="Do not fill in will not show"><?php echo htmlspecialchars($conf['gg_file'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">
-	  <label class="col-sm-2 control-label">Statistical code</label>
+	  <label class="col-sm-2 control-label">The footer code</label>
+	  <div class="col-sm-10"><textarea class="form-control" name="en_tongji" rows="3" placeholder="If you do not fill in, the statistics code will not be displayed"><?php echo htmlspecialchars($conf['en_tongji'])?></textarea></div>
+	</div><br/>
+	<div class="form-group">
+	  <label class="col-sm-2 control-label">Chinese website footer code</label>
 	  <div class="col-sm-10"><textarea class="form-control" name="tongji" rows="3" placeholder="If you do not fill in, the statistics code will not be displayed"><?php echo htmlspecialchars($conf['tongji'])?></textarea></div>
 	</div><br/>
 	<div class="form-group">

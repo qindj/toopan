@@ -30,8 +30,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./">云端托盘管理中心</a>
-          <ul class="nav navbar-nav">
-          <li class="<?php echo checkIfActive('../')?>">
+          <ul class="navbar-brand" style="font:14px Microsoft YaHei; margin:0px auto; text-align:center;">
             <a href="../"><i class="fa fa-bookmark" aria-hidden="true"></i> 返回前台</a>
           </li>
       </div><!-- /.navbar-header -->
@@ -56,6 +55,14 @@
             </ul>
           </li>
           <li><a href="./login.php?logout"><i class="fa fa-power-off"></i> 退出登录</a></li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-globe" class="navbar-right" aria-hidden="true"></i> 语言切换
+        </a>
+        <div style="text-align:center;" class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="./en-index.php"><i class="fa fa-language" aria-hidden="true"></i> English</a>
+        </div>
+      </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
