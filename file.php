@@ -62,7 +62,7 @@ if(in_array($type, $type_image)){
 }
 ?>
 <div class="container">
-    <div class="row">
+    <div class="row"><div align="center">
 <?php
 if($row['pwd']!=null && $row['pwd']!=$pwd){ ?>
   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
@@ -74,7 +74,7 @@ if($row['pwd']!=null && $row['pwd']!=$pwd){ ?>
       window.location.href="./file.php?hash=<?php echo $row['hash']?>&pwd="+pwd
   }
   </script>
-  请刷新页面，或[ <a href="javascript:history.back();">返回上一页</a> ]
+请刷新页面输入密码，或[ <a href="./">返回上一页</a> ]
 <?php
   exit;
 }

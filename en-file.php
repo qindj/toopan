@@ -62,7 +62,7 @@ if(in_array($type, $type_image)){
 }
 ?>
 <div class="container">
-    <div class="row">
+    <div class="row"><div align="center">
 <?php
 if($row['pwd']!=null && $row['pwd']!=$pwd){ ?>
   <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
@@ -74,7 +74,7 @@ if($row['pwd']!=null && $row['pwd']!=$pwd){ ?>
       window.location.href="./en-file.php?hash=<?php echo $row['hash']?>&pwd="+pwd
   }
   </script>
-  Please refresh the page, or[ <a href="javascript:history.back();">Go back to the previous page</a> ]
+Please refresh the page and enter your password, or[ <a href="./en-US.php">Go back to the previous page</a> ]
 <?php
   exit;
 }
@@ -232,7 +232,7 @@ if($filetype==1){
       </div>
     </div>
   </div>
-<?php include SYSTEM_ROOT.'footer.php';?>
+<?php include SYSTEM_ROOT.'en-footer.php';?>
 <?php if($filetype==2){?>
 <script type="text/javascript" src="//cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script>
 <script type="text/javascript">

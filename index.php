@@ -11,7 +11,7 @@ include SYSTEM_ROOT.'header.php';
 <div class="btn-group pull-right" style="display: inline-block;">
 </div>
   </div>
-<div class="container">  
+<div class="container">
         <h3>文件列表</h3>
         <div class="table-responsive">
        <table class="table table-striped table-hover">

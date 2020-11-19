@@ -134,7 +134,7 @@ include SYSTEM_ROOT.'header.php';
  </div>
   </div>
    </div>
-   <br>
+<br>
 <br>
 <br>
 <script src="assets/js/upload.js?v=1001"></script>

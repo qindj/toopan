@@ -9,7 +9,7 @@ include SYSTEM_ROOT.'en-header.php';
 
 <div class="btn-group">
 <div class="container">
-<div class="well bs-component"><div style="font:20px Microsoft YaHei;">
+<div style="font:20px Microsoft YaHei;">
 <font color="#696969">
 <h2>User agreement</h2><hr/>
  </div>
@@ -134,5 +134,8 @@ include SYSTEM_ROOT.'en-header.php';
  </div>
   </div>
    </div>
+<br>
+<br>
+<br>
 <script src="assets/js/upload.js?v=1001"></script>
-<?php include SYSTEM_ROOT.'footer.php';?>
+<?php include SYSTEM_ROOT.'en-footer.php';?>

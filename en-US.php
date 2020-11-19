@@ -87,13 +87,13 @@ echo '<li style="font:14px Microsoft YaHei;" class="disabled"><a>back</a></li>';
     </div>
     </div>
 </div>
-<?php include SYSTEM_ROOT.'footer.php';?>
-<?php if(!empty($conf['gonggao'])){?>
+<?php include SYSTEM_ROOT.'en-footer.php';?>
+<?php if(!empty($conf['en_gonggao'])){?>
 <link href="//mediy.oss-cn-beijing.aliyuncs.com/toopan.cn/snackbar.min.css" rel="stylesheet">
 <script src="//mediy.oss-cn-beijing.aliyuncs.com/toopan.cn/snackbar.min.js"></script>
 <script>
 $(function() {
-$.snackbar({content: "<?php echo $conf['gonggao']?>", timeout: 10000});
+$.snackbar({content: "<?php echo $conf['en_gonggao']?>", timeout: 10000});
 });
 </script>
 <?php }?>

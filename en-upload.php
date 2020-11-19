@@ -78,4 +78,4 @@ It seems that just know you, blink of an eye like you so long.
   </div>
     </div>
   <script src="assets/js/en-upload.js?v=1001"></script>
-<?php include SYSTEM_ROOT.'footer.php';?>
+<?php include SYSTEM_ROOT.'en-footer.php';?>

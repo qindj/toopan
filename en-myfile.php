@@ -7,7 +7,6 @@ include SYSTEM_ROOT.'en-header.php';
 <style type="text/css">
 </style>
 <div class="container">
-    <div class="well bs-component">    
         <h2>I uploaded the file<small>（Browser cache record）</small></h2>
         <div class="table-responsive">
        <table class="table table-striped table-hover ">
@@ -91,4 +90,4 @@ echo '<li class="disabled"><a>back</a></li>';
 </div>
     </div>
   </div>
-<?php include SYSTEM_ROOT.'footer.php';?>
+<?php include SYSTEM_ROOT.'en-footer.php';?>
