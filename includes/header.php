@@ -17,7 +17,7 @@
   <!-- Bootstrap Material Design -->
   <link href="//cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="//cdn.staticfile.org/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-  <link href="./assets/css/ripples.min.css" rel="stylesheet">
+  <link href="./assets/css/ripples.css" rel="stylesheet">
   <link href="//cdn.staticfile.org/bootstrap-material-design/0.5.10/css/ripples.min.css" rel="stylesheet">
   <?php if($is_file){?><link rel="stylesheet" href="//cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css"><?php }?>
   <link href="assets/css/style.css?v=1001" rel="stylesheet">
@@ -26,7 +26,7 @@
 </head>
 <body>
 
-  <div class="navbar-default">
+  <div class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -42,7 +42,7 @@
             <li class="<?php echo checkIfActive('upload')?>"><a href="./upload.php"><i class="fa fa-upload" aria-hidden="true"></i> 上传文件</a></li>
             <li class="<?php echo checkIfActive('myfile')?>"><a href="./myfile.php"><i class="fa fa-user" aria-hidden="true"></i> 我的文件</a></li>
             <?php if($is_file){?>
-            <li class="<?php echo checkIfActive('file')?>"><a href=""><i class="fa fa-file" aria-hidden="true"></i> 文件查看</a></li>
+            <li class="<?php echo checkIfActive('file')?>"><a href="./file.php"><i class="fa fa-file" aria-hidden="true"></i> 文件查看</a></li>
             <?php }?>
           </ul>
           <ul class="nav navbar-nav navbar-right">

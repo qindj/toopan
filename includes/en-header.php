@@ -42,7 +42,7 @@
             <li class="<?php echo checkIfActive('en-upload')?>"><a href="./en-upload.php"><i class="fa fa-upload" aria-hidden="true"></i> Upload</a></li>
             <li class="<?php echo checkIfActive('en-myfile')?>"><a href="./en-myfile.php"><i class="fa fa-user" aria-hidden="true"></i> My file</a></li>
             <?php if($is_file){?>
-            <li class="<?php echo checkIfActive('en-file.php')?>"><a href="en-file.php"><i class="fa fa-file" aria-hidden="true"></i> Check the file</a></li>
+            <li class="<?php echo checkIfActive('en-US')?>"><a href="./en-US.php"><i class="fa fa-file" aria-hidden="true"></i> Check the file</a></li>
             <?php }?>
           </ul>
           <ul class="nav navbar-nav navbar-right">
