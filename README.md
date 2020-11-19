@@ -12,6 +12,9 @@
  * 修改文件列表可以直接点击文件名称查看；
  * 更改了UI色彩，调整了部分UI布局；
  * 增加用户协议导航按钮、增加后台管理导航按钮、管理中心返回前台按钮；
+ * 修复密码文件访问页面的返回上一页，使用可以被点击，同时调整布局；
+ * 增加后台管理页面英文公告、英文标题、英文页脚、英文关键词，使其在不同页面可以设置展示不同内容；
+ * 
  ## 示例图
 ![图示1](https://mediy.oss-cn-beijing.aliyuncs.com/toopan%20github%E5%9B%BE%E7%89%87/2.png)
 ![图示2](https://mediy.oss-cn-beijing.aliyuncs.com/toopan%20github%E5%9B%BE%E7%89%87/3.png)
