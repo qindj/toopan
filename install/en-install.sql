@@ -11,8 +11,10 @@ INSERT INTO `pre_config` VALUES ('admin_pwd', '123456');
 INSERT INTO `pre_config` VALUES ('blackip', '');
 INSERT INTO `pre_config` VALUES ('title', '云端托盘');
 INSERT INTO `pre_config` VALUES ('en_title', 'Cloud tray');
-INSERT INTO `pre_config` VALUES ('keywords', 'Free network disk, free map bed, temporary network disk, file warehouse, file outside link, file curiosity, free outside link, visitors upload');
-INSERT INTO `pre_config` VALUES ('description', 'A Shared repository of files');
+INSERT INTO `pre_config` VALUES ('keywords', '免费网盘, 免费图床, 临时网盘, 文件外链, 文件猎奇, 免费外链, 游客上传');
+INSERT INTO `pre_config` VALUES ('en_keywords', 'Free network disk, free map bed, temporary network disk, file outside chain, free outside chain, tourists upload');
+INSERT INTO `pre_config` VALUES ('description', '云托盘提供临时文件分享与图床服务');
+INSERT INTO `pre_config` VALUES ('en_description', 'Cloud tray provides temporary file sharing and mapping services');
 INSERT INTO `pre_config` VALUES ('storage', 'local');
 INSERT INTO `pre_config` VALUES ('filepath', '');
 INSERT INTO `pre_config` VALUES ('aliyun_ak', '');
@@ -28,8 +30,8 @@ INSERT INTO `pre_config` VALUES ('green_check_porn', '0');
 INSERT INTO `pre_config` VALUES ('green_check_terrorism', '0');
 INSERT INTO `pre_config` VALUES ('green_label_porn', 'sexy,porn');
 INSERT INTO `pre_config` VALUES ('green_label_terrorism', 'bloody,explosion,outfit,logo,weapon,politics');
-INSERT INTO `pre_config` VALUES ('en_gg_file', 'All content in the repository is uploaded and Shared by users themselves.This website strictly complies with relevant national laws and regulations, and respects copyright, copyright and other rights of third parties.If the current document violates your rights, please report it to us in time and we will deal with it promptly.');
 INSERT INTO `pre_config` VALUES ('gg_file', '这个仓库的所有内容都是由用户自己上传和分享的。本网站严格遵守国家有关法律法规，尊重著作权、版权等第三方权利。如果目前的文件侵犯了您的权利，请及时报告给我们，我们会及时处理。');
+INSERT INTO `pre_config` VALUES ('en_gg_file', 'All content in the repository is uploaded and Shared by users themselves.This website strictly complies with relevant national laws and regulations, and respects copyright, copyright and other rights of third parties.If the current document violates your rights, please report it to us in time and we will deal with it promptly.');
 
 DROP TABLE IF EXISTS `pre_file`;
 CREATE TABLE `pre_file` (
